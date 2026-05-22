@@ -7,7 +7,7 @@ st.set_page_config(
     layout="wide"
     )
 
-df = pd.read_csv('data/superstore.csv')
+df = pd.read_csv("superstore.csv")
 df["Order Date"] = pd.to_datetime(df["Order Date"])
 
 st.sidebar.title("Dashboard Menu")
